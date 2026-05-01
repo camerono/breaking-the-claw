@@ -1,6 +1,6 @@
 # _Breaking the Claw! Breaking the Claw!_
 <sub>_(that's a Judas Priest reference, btw)_</sub>
-### OpenClaw + NemoClaw — A , Honest Impressions
+### OpenClaw + NemoClaw, Honest Impressions
 
 *Cam, Updated 2026-05-01.*
 
