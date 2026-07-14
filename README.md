@@ -21,6 +21,8 @@ The first writeup was the morning-after read on standing the stack up. What foll
 5. **[The cluster grows up](05-the-cluster.md)** — a two-instance prod/dev split, a fifth host, and a runtime bench that came out 3–6× off from what I expected.
 6. **[Did anyone fix it? — the upstream scorecard](06-upstream-scorecard.md)** — two months later, which bugs actually moved. NemoClaw fixes things, OpenClaw labels things and stalls, and Dify's community fixes things while the merge waits on code owners.
 
+**Aside — [Atlas: going deeper into the machine](atlas-going-deeper.md).** A separate adventure off the main arc: opening up an open-source Rust inference engine and running a 122B mixture-of-experts model across two GB10 boxes with expert parallelism. The one stretch where I got under the abstractions — MoE kernel selection, quantization boundaries, speculative decoding, CUDA graphs, and the bandwidth wall — in the language it's actually implemented in.
+
 ## Net read, ten days in
 
 **OpenClaw is closer to "production-ready for technical users" than I expected, and further from "production-ready for non-technical family members" than I'd hoped.** Every bug I filed had a clean structural fix on the table. Nothing in flight closed the gap inside a week.
